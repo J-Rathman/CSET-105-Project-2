@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p, #answer-list, button {
+    background-color: steelblue;
+    color: white;
+    padding: 2%;
+    width: 35%;
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+    margin: 5% auto 0;
+}
+
+#answer-list, button {
+    margin: 0 auto;
+}
+
+button {
+    width: 20%;
+}
+
+.center {
+    text-align: center;
+    margin-top: 2%;
+}

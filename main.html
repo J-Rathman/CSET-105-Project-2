@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-2</title>
+    <link href="style.css" rel="stylesheet">
+    <script src="home.js"></script>
+</head>
+<body>
+    <span id="question-number">number</span>
+    <p id="question"></p>
+    <ul id="answer-list" type="none">
+        <li><input type="radio" name="radio-option" id="answer-one"><label for="answer-one" id="label-one"></label></li>
+        <li><input type="radio" name="radio-option" id="answer-two"><label for="answer-two" id="label-two"></label></li>
+        <li><input type="radio" name="radio-option" id="answer-three"><label for="answer-three" id="label-three"></label></li>
+        <li><input type="radio" name="radio-option" id="answer-four"><label for="answer-four" id="label-four"></label></li>
+    </ul>
+    <div class="center" id="buttons">
+        <button onclick="nextQuestion();" id="bottom-btn">Submit</button>
+    </div>
+    <script>generateQuestion();</script>   
+</body>
+</html>
